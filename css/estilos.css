@@ -1,0 +1,440 @@
+*{
+	margin:0;
+	padding: 0;
+	border: 0;
+}
+
+body
+{
+	background: #D5DAE7;
+}
+
+/*ecf0f1*/
+p
+{
+	color: #524c56;
+	font-size: 100%;
+	line-height: 155%;
+	padding: 3%;
+	text-indent: 2%;
+	text-align: justify;
+}
+
+h3
+{
+	font-size: 175%;
+	line-height: 155%;
+	font-weight: 500;
+	color: #7382A9;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 0;
+
+}
+a
+{
+	color:#B02F06;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+a:hover
+{
+	color:#DEDF86;
+}
+
+img
+{
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	margin-bottom: -4px;
+}
+#ima
+{
+	width: 150px;
+	height: 100px;
+	padding-top: 20px;
+	border-radius: px;
+}
+
+#nave
+{
+	max-width: 1200px;
+	margin: 0 auto;
+
+
+}
+
+#naveban
+{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 0 3% 0; 
+
+	
+}
+
+header
+{
+	width: 100%;
+	height: 150px;
+	top: 0;
+	left: 0;
+	background-color: #EDB400: 
+
+}
+
+header #logo img
+{
+	margin: 20px;
+	float: left;
+	width: 120px;
+}
+
+nav
+{
+	float: right;
+	padding: 50px 25px 0 0;
+
+}
+#menuicono
+{
+	display: none;
+	font-size: 50px;
+}
+
+ul
+{
+	list-style: none;
+}
+
+nav ul li 
+{
+	font-size: 150%;
+	display: inline-block;
+	float: left;
+	padding: 10px;
+
+}
+nav ul li a 
+{
+	color:#D6A200;
+
+}
+
+.ocurrealgo
+{
+	color: #3f5767;
+}
+
+.unotres
+{
+	width: 31.5%;
+	float: left;
+	padding: 10px;
+	text-align: center;
+}
+
+/*.iconWrrr
+{
+	margin: 0 auto;
+	width: 120px;
+	height: 120px;
+	background-color: #6991ac;
+	border-radius: 130px;
+	text-align: center;
+	margin-top: 3%; 
+}*/
+
+.columna
+{
+	float: left;
+	margin: 0 auto;
+	width: 60%;
+	height: auto;
+	padding: 1%;
+}
+
+.allado
+{
+	float: right;
+	margin: 0 auto;
+	width: 28%;
+	height: auto;
+	padding: 3%;
+}
+
+.unotrespadding
+{
+	width: 29%;
+	float: left;
+	margin: 2% 2%;
+}
+
+.limpiaelpadding
+{
+	clear: both;
+	padding: 2%;
+}
+.iconWrrr i
+{
+	text-align: center;
+	color: #fff;
+	font-size: 450%;
+}
+
+footer
+{
+	background: #2c3e50;
+	width: 100%;
+	overflow: auto;
+}
+
+.icono-texto
+{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.icono-texto-icono
+{
+	float: left;
+	width: 20%;
+	padding: 4%;
+}
+
+.icon-texto-texto
+{
+	float: left;
+	width: 60%;
+	padding: 4% 4% 2% 0;
+}
+
+.footernave
+{
+	text-align: right;
+}
+
+.footernave a
+{
+	font-size: 160%;
+	color: #c3d7df;
+	font-weight: 300;
+}
+
+.footernave a:hover
+{
+	color:#f5f5f5;
+}
+
+.social
+{
+	text-align: center;
+}
+
+.social li{
+display: inline;
+	
+}
+
+.social i
+{
+	font-size: 420%;
+	margin: 1%;
+	padding: 5%;
+	color: #c3d7df;
+}
+
+.footersegundo
+{
+	border-top: 1px solid #aadcd2;
+	text-align: center;
+}
+.footersegundo p
+{
+	text-align: center;
+	color: #fff;
+	font: 160%;
+	line-height: 155%;
+}
+
+
+#map
+{
+	padding-left: 50px;
+	display: inline;
+}
+
+input[type='text']{
+	width: 100%;
+	height: 40px;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+input[type='submit']{
+	width: 100%;
+	height: 40px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+textarea{
+	width: 100%;
+	height: 40px;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+input, textarea{
+	margin-bottom: 3px;
+}
+form{
+			background-color:#7993D7 ;
+			border-radius: 3px;
+			color: #34495E;
+			font-size: 0.8em;
+			padding: 20px;
+			margin: 0 auto;
+			width: 350px;
+		}
+
+		input, textarea{
+			border: 0;
+			outline: none;
+
+			width: 350px;
+		}
+
+		.field{
+			border: solid 1px #ccc;
+			padding: 2px;
+
+			
+		}
+
+		.field:focus{
+			border-color: #18A383;
+		}
+
+		.center-content{
+			text-align: center;
+		}
+	}
+}
+
+
+@media screen and (max-width: 768px){
+	p{
+		font-size: 130%;
+	}
+
+	h3{
+		font-size: 150%;
+	}
+
+	header{
+		height: 80px;
+		position:relative;
+	}
+	header #logo{
+		margin: 15px 0 20px -25px;
+	}
+	#menuicono{
+		display: inline-block;
+	}
+
+	nav:hover ul{
+		display: block;
+	}
+
+	nav ul, nav:activo ul{
+		display: none;
+		z-index: 1000;
+		position: absolute;
+		padding: 20px;
+		background: #f5f5f5;
+		border: 1px solid #a5bdcd;
+		right: 20px;
+		width: 30%;
+		opacity: .95;
+	}
+
+	nav li {
+		text-align: center;
+		width: 100%;
+	}
+
+	.unotres {
+		float: left;
+		width: 100%;
+
+	}
+
+	.iconWrrr
+	{
+		height: 80px;
+		width: 80px;
+		margin-top: 3%;
+	}
+
+	.iconWrrr i
+	{
+		font-size: 250%;
+		padding-top: 27%; 
+	}
+
+	.columna
+	{
+		width: 100%;
+		padding: 0;
+
+	}
+
+	.allado{
+		width: 100%;
+	}
+
+	.unotrespadding{
+		width: 98%;
+		margin: 0;
+		padding: 1%
+	}
+
+	.icono-texto-icono{
+		width: 100%;
+		padding: 2% 0 0 0;
+
+	}
+
+	.icon-texto-texto
+	{
+		width: 100%;
+		padding: 2% 0 0 0;
+		font-size: 80%;
+
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
